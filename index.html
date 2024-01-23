@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Webpage Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4; /* Optional: Add a background color */
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            text-align: center;
+        }
+
+        .blocks-container {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            margin-top: 20px;
+        }
+
+        .block {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+            width: 45%;
+            transition: transform 0.2s; /* Optional: Add a smooth hover effect */
+        }
+
+        .block:hover {
+            transform: scale(1.05); /* Optional: Scale the block on hover */
+        }
+
+        .block a {
+            text-decoration: none;
+            color: inherit; /* Inherit text color from parent */
+        }
+
+        .block img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .block h2 {
+            margin-top: 10px; /* Adjust the margin between icon and title */
+        }
+
+        .contact-message {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .email-link {
+            color: #007bff; /* Link color */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .university-logo {
+            margin-top: 20px;
+            max-width: 200px; /* Adjust the maximum width of the logo */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Your Webpage Title</h1>
+    <p>This is a short text block on your webpage. Keep it simple and to the point.</p>
+
+    <div class="blocks-container">
+        <div class="block">
+            <a href="https://your-link-1.com" target="_blank">
+                <img src="path/to/your/icon1.jpg" alt="Icon 1">
+                <h2>Block 1 Title</h2>
+                <img src="path/to/your/qrcode1.png" alt="QR Code 1">
+            </a>
+        </div>
+
+        <div class="block">
+            <a href="https://your-link-2.com" target="_blank">
+                <img src="path/to/your/icon2.jpg" alt="Icon 2">
+                <h2>Block 2 Title</h2>
+                <img src="path/to/your/qrcode2.png" alt="QR Code 2">
+            </a>
+        </div>
+    </div>
+
+    <div class="contact-message">
+        <p>Please feel free to contact us for any queries at: <a href="mailto:info@example.com" class="email-link">info@example.com</a></p>
+    </div>
+
+    <img src="path/to/your/university-logo.png" alt="University Logo" class="university-logo">
+</body>
+</html>
