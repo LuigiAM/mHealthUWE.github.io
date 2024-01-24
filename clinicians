@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Co-design with us!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #f4f4f4; /* Optional: Add a background color */
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            text-align: center;
+        }
+
+        .blocks-container {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            margin-top: 20px;
+        }
+
+        .block {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+            width: 45%;
+            transition: transform 0.2s; /* Optional: Add a smooth hover effect */
+        }
+
+        .block:nth-child(1) {
+            width: 25%;
+        }
+
+        .block:hover {
+            transform: scale(1.05); /* Optional: Scale the block on hover */
+        }
+
+        .block a {
+            text-decoration: none;
+            color: inherit; /* Inherit text color from parent */
+        }
+
+        .block img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            max-height: 120px; /* Adjust the maximum height of the icon */
+        }
+
+        .block h2 {
+            margin-top: 10px; /* Adjust the margin between icon and title */
+            font-size: 1.2em; /* Adjust the font size */
+        }
+
+        .block:nth-child(2) {
+            font-size: 1.2em; /* 1.2 times bigger font size for the entire block */
+        }
+
+        .block:nth-child(2) img {
+            max-height: 144px; /* 1.2 times bigger icon */
+        }
+
+        .block:nth-child(2) p {
+            font-size: 1.2em; /* 1.2 times bigger font size for the text */
+        }
+
+        .contact-message {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .email-link {
+            color: #007bff; /* Link color */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .university-logo {
+            margin-top: 20px;
+            max-width: 200px; /* Adjust the maximum width of the logo */
+            height: auto;
+        }
+
+        .share-buttons {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .share-buttons a {
+            display: inline-block;
+            padding: 10px;
+            background-color: #007bff; /* Share button color */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .share-buttons a:hover {
+            background-color: #0056b3; /* Darker color on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Co-design with us!</h1>
+    <p>Please select the option that better define what you are:</p>
+
+    <div class="blocks-container">
+        <div class="block">
+            <a href="https://your-link-1.com" target="_blank">
+                <img src="path/to/your/icon1.jpg" alt="Icon 1">
+                <h2>Public</h2>
+                <p>If you have <b\>personally<\b> experienced any anxiety disorders, including OCD and PTSD</p>
+            </a>
+        </div>
+
+        <div class="block">
+            <a href="https://your-link-2.com" target="_blank">
+                <img src="path/to/your/icon2.jpg" alt="Icon 2">
+                <h2>Clinicians</h2>
+                <p>If you have <b\>professionally<\b> experienced any anxiety disorders, including OCD and PTSD</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="contact-message">
+        <p>Please feel free to contact us for any queries at: <a href="mailto:luigi.moretti@uwe.ac.uk" class="email-link">luigi.moretti@uwe.ac.uk</a></p>
+    </div>
+
+    <div class="share-buttons">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fyour-website-url.com" target="_blank">Share on Facebook</a>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fyour-website-url.com&text=Check%20out%20this%20page!" target="_blank">Share on Twitter</a>
+        <a href="whatsapp://send?text=Check%20out%20this%20page:%20https%3A%2F%2Fyour-website-url.com" target="_blank">Share on WhatsApp</a>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fyour-website-url.com&title=Your%20Webpage%20Title&summary=Check%20out%20this%20page%20for%20interesting%20information" target="_blank">Share on LinkedIn</a>
+        <!-- Add more share buttons as needed -->
+    </div>
+
+    <img src="path/to/your/university-logo.png" alt="University Logo" class="university-logo">
+</body>
+</html>
